@@ -13,8 +13,9 @@ import com.ha.test.Test;
 public class TestController {
 	@RequestMapping("/test")
 	@ResponseBody
-	public void test(Test test,User user) {
+	public void test(Test test,User user){
 		System.out.println(test+"bay223");
+		System.out.println("add new branch");
 		System.out.println(user);
 	}
 }

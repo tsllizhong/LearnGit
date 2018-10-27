@@ -14,7 +14,7 @@ public class TestController {
 	@RequestMapping("/test")
 	@ResponseBody
 	public void test(Test test,User user) {
-		System.out.println(test+"by2a");
+		System.out.println(test+"by223");
 		System.out.println(user);
 	}
 }

@@ -15,6 +15,7 @@ public class TestController {
 	@ResponseBody
 	public void test(Test test,User user) {
 		System.out.println(test+"by2");
+		System.out.println(test+"by1");
 		System.out.println(user);
 	}
 }
